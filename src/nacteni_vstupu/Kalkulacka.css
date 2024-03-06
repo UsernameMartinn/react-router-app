@@ -1,0 +1,16 @@
+#kalkulacka {
+    width: 100px;
+    text-align: center;
+}
+
+#displej {
+    font-size: 20px;
+    border: 1px solid black;
+}
+
+#tlacitka {
+    font-weight: bold;
+    margin: 2px;
+    background-color: lightgray;
+    border: 1px solid black;
+}
