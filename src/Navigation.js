@@ -16,6 +16,8 @@ const Navigation = () => {
                 <Link style={{margin: 5}} to="/mui"><MuiLink component="button" underline="none" variant="h5"><Button style={{backgroundColor:'rgb(150, 200, 100)', color: "black"}} variant="contained">Mui</Button></MuiLink></Link>
 
                 <Link style={{margin: 5}} to="/api"><MuiLink component="button" underline="none" variant="h5"><Button style={{backgroundColor:'rgb(150, 200, 100)', color: "black"}} variant="contained">Api</Button></MuiLink></Link>
+
+                <Link style={{margin: 5}} to="/eshop"><MuiLink component="button" underline="none" variant="h5"><Button style={{backgroundColor:'rgb(150, 200, 100)', color: "black"}} variant="contained">Eshop</Button></MuiLink></Link>
             </nav>
             <Outlet />
         </>
