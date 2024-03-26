@@ -7,17 +7,19 @@ const Navigation = () => {
     return (
         <>
             <nav>
-                <Link style={{margin: 5}} to='/'><MuiLink component="button" underline="none" variant="h5"><Button style={{backgroundColor:'rgb(150, 200, 100)', color: "black"}} variant="contained">Home</Button></MuiLink></Link>
+                <Button style={{backgroundColor:'rgb(150, 200, 100)', color: "black", margin: 5}} variant="contained" href="/router-material-api/#">Home</Button>
 
-                <Link style={{margin: 5}} to="/local_storage"><MuiLink component="button" underline="none" variant="h5"><Button style={{backgroundColor:'rgb(150, 200, 100)', color: "black"}} variant="contained">Local storage</Button></MuiLink></Link>
+                <Button style={{backgroundColor:'rgb(150, 200, 100)', color: "black", margin: 5}} variant="contained" href="/router-material-api/#/local_storage">Local storage</Button>
 
-                <Link style={{margin: 5}} to="/nacteni_vstupu"><MuiLink component="button" underline="none" variant="h5"><Button style={{backgroundColor:'rgb(150, 200, 100)', color: "black"}} variant="contained">Načtení vstupu</Button></MuiLink></Link>
+                <Button style={{backgroundColor:'rgb(150, 200, 100)', color: "black", margin: 5}} variant="contained" href="/router-material-api/#/nacteni_vstupu">Načtení vstupu</Button>
 
-                <Link style={{margin: 5}} to="/mui"><MuiLink component="button" underline="none" variant="h5"><Button style={{backgroundColor:'rgb(150, 200, 100)', color: "black"}} variant="contained">Mui</Button></MuiLink></Link>
+                <Button style={{backgroundColor:'rgb(150, 200, 100)', color: "black", margin: 5}} variant="contained" href="/router-material-api/#/mui">Mui</Button>
 
-                <Link style={{margin: 5}} to="/api"><MuiLink component="button" underline="none" variant="h5"><Button style={{backgroundColor:'rgb(150, 200, 100)', color: "black"}} variant="contained">Api</Button></MuiLink></Link>
+                <Button style={{backgroundColor:'rgb(150, 200, 100)', color: "black", margin: 5}} variant="contained" href="/router-material-api/#/api">Api</Button>
 
-                <Link style={{margin: 5}} to="/eshop"><MuiLink component="button" underline="none" variant="h5"><Button style={{backgroundColor:'rgb(150, 200, 100)', color: "black"}} variant="contained">Eshop</Button></MuiLink></Link>
+                <Button style={{backgroundColor:'rgb(150, 200, 100)', color: "black", margin: 5}} variant="contained" href="/router-material-api/#/eshop">Eshop</Button>
+
+                <Button style={{backgroundColor:'rgb(150, 200, 100)', color: "black", margin: 5}} variant="contained" href="/router-material-api/#/oblibena_barva">Oblíbená barva</Button>
             </nav>
             <Outlet />
         </>

@@ -53,7 +53,7 @@ return (
         <CiselneTlacitko cislo={3} klikFunkce={nastavCislo} puvodniCislo={cislo}/>
         <button onClick={() => vybranaOperace("*")}>*</button>
         <br/>
-        <button onClick={() => vybranaOperace("=")}>=</button>
+        <button onClick={() => spocitejVysledek("=")}>=</button>
         <CiselneTlacitko cislo={0} klikFunkce={nastavCislo} puvodniCislo={cislo}/>
         <button onClick={() => vybranaOperace("C")}>C</button>
         <button onClick={() => vybranaOperace("/")}>/</button>
