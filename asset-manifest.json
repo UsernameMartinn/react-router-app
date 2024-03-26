@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/UsernameMartinn/react-router-app/static/css/main.15f927f4.css",
-    "main.js": "/UsernameMartinn/react-router-app/static/js/main.92e4f50a.js",
+    "main.js": "/UsernameMartinn/react-router-app/static/js/main.ae6f76ce.js",
     "static/media/roboto-latin-500-normal.woff2": "/UsernameMartinn/react-router-app/static/media/roboto-latin-500-normal.f25d774ecfe0996f8eb5.woff2",
     "static/media/roboto-latin-700-normal.woff2": "/UsernameMartinn/react-router-app/static/media/roboto-latin-700-normal.227c93190fe7f82de3f8.woff2",
     "static/media/roboto-latin-400-normal.woff2": "/UsernameMartinn/react-router-app/static/media/roboto-latin-400-normal.b009a76ad6afe4ebd301.woff2",
@@ -60,10 +60,10 @@
     "static/media/roboto-greek-ext-700-normal.woff": "/UsernameMartinn/react-router-app/static/media/roboto-greek-ext-700-normal.249853776d22a271b2b5.woff",
     "index.html": "/UsernameMartinn/react-router-app/index.html",
     "main.15f927f4.css.map": "/UsernameMartinn/react-router-app/static/css/main.15f927f4.css.map",
-    "main.92e4f50a.js.map": "/UsernameMartinn/react-router-app/static/js/main.92e4f50a.js.map"
+    "main.ae6f76ce.js.map": "/UsernameMartinn/react-router-app/static/js/main.ae6f76ce.js.map"
   },
   "entrypoints": [
     "static/css/main.15f927f4.css",
-    "static/js/main.92e4f50a.js"
+    "static/js/main.ae6f76ce.js"
   ]
 }
