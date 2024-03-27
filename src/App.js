@@ -12,10 +12,10 @@ import { useEffect, useState } from "react";
 
 function App() {
 
-  const [barva, nastavBarvu] = useState(localStorage.getItem(''));
+  const [barva, nastavBarvu] = useState(localStorage.getItem('barva'));
 
   useEffect(() => {
-    localStorage.setItem('', barva);
+    localStorage.setItem('barva', barva);
   }, [barva])
 
 
