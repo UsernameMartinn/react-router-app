@@ -24,6 +24,7 @@ function Api() {
 
   return (
     <>
+      <Typography variant='h2'>Kávička</Typography>
       <Paper>
         <Typography variant="subtitle1">
           {vybranaKava != "" && <span>Vybraná káva je: {vybranaKava}</span>}
@@ -39,7 +40,7 @@ function Api() {
                 <Typography variant="h5">
                   <img src={kava.image} />
                   <Divider>
-                  <Chip label={kava.title} size="medium" />
+                    <Chip label={kava.title} size="medium" />
                   </Divider>
                 </Typography>
               </Paper>

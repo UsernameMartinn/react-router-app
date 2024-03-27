@@ -77,7 +77,7 @@ function Eshop() {
                     <Chip label={polozka.title} size="medium" />
                   </Divider>
                   <Polozka data={polozka} />
-                  <Button onClick={() => pridatPolozku(polozka)} style={{backgroundColor:'rgb(100, 200, 200)', color: "black"}} variant="contained">Přidat do košíku</Button>
+                  <Button onClick={() => pridatPolozku(polozka)} style={{ backgroundColor: 'rgb(100, 200, 200)', color: "black" }} variant="contained">Přidat do košíku</Button>
                 </Typography>
               </Paper>
             </Grid>

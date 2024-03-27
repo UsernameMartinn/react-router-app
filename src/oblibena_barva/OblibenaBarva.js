@@ -1,15 +1,16 @@
 import { useEffect, useState } from "react";
 import Ctverec from './Ctverec'
+import { Typography } from "@mui/material";
 
-function OblibenaBarva() {
-  const [barva, nastavBarvu] = useState('');
+function OblibenaBarva(props) {
+
 
   return (
     <>
+      <Typography style={{color: props.barva}} variant='h2'>Oblíbená barva</Typography>
       <div>Jaká je vaše oblíbená barva?</div>
-      <input type='color' id='barva' onChange={(e) => nastavBarvu(e.target.value)}></input>
-      <button id='ok' onClick={() => console.log(barva)}>Ok</button> <br />
-      <Ctverec barva={barva}/>
+      <input type='color' id='barva' onChange={(e) => props.nastavBarvu(e.target.value)}></input>
+      <Ctverec OblibenaBarva={props.barva} />
     </>
   );
   //e je event

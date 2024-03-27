@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { Typography } from "@mui/material";
 
 function LocalStorage() {
 
@@ -30,16 +31,17 @@ function LocalStorage() {
 
   return (
     <>
-      <div style={{fontSize: 40, margin: 40}} >
-        <button style={{ backgroundColor: "lightgreen", color: "green", fontSize: 40, width: 50, margin: 30}} onClick={() => nastavPocet(pocet + 1)}>+</button>
+      <Typography variant='h2'>Local storage</Typography>
+      <div style={{ fontSize: 40, margin: 40 }} >
+        <button style={{ backgroundColor: "lightgreen", color: "green", fontSize: 40, width: 50, margin: 30 }} onClick={() => nastavPocet(pocet + 1)}>+</button>
         {pocet}
-        <button style={{ backgroundColor: "salmon", color: "crimson", fontSize: 40, width: 50, margin: 30}} onClick={() => nastavPocet(pocet - 1)}>-</button>
+        <button style={{ backgroundColor: "salmon", color: "crimson", fontSize: 40, width: 50, margin: 30 }} onClick={() => nastavPocet(pocet - 1)}>-</button>
       </div>
 
-      <div style={{fontSize: 40, margin: 40}} >
-        <button style={{fontSize: 40, width: 50, margin: 30}} onClick={zvysHodnotu}>+</button>
+      <div style={{ fontSize: 40, margin: 40 }} >
+        <button style={{ fontSize: 40, width: 50, margin: 30 }} onClick={zvysHodnotu}>+</button>
         {pocet}
-        <button style={{fontSize: 40, width: 50, margin: 30}} onClick={snizHodnotu}>-</button>
+        <button style={{ fontSize: 40, width: 50, margin: 30 }} onClick={snizHodnotu}>-</button>
       </div>
     </>
   );

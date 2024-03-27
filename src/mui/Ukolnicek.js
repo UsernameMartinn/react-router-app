@@ -49,9 +49,9 @@ export default function Ukolnicek(poradi) {
             }
         }
         */
-       let pocetSplnenych = seznamUkolu.filter(ukol => ukol.splneno).length
+        let pocetSplnenych = seznamUkolu.filter(ukol => ukol.splneno).length
 
-        
+
         return pocetSplnenych
         /*for(let i = 0; i <= seznamUkolu.length; i++) {
             if (seznamUkolu[i].splneno == true) {
@@ -86,6 +86,7 @@ export default function Ukolnicek(poradi) {
 
     return (
         <>
+            <Typography variant='h2'>Úkolníček</Typography>
             <NovyUkol pridejUkol={pridejUkol} />
             <br />
             <Typography variant="body1">{seznamUkolu.map((ukol, poradi) => <PolozkaUkolu ukol={ukol} poradi={poradi} fceSmazat={smazatUkol} fceSpln={splnUkol}></PolozkaUkolu>)}</Typography>
@@ -94,7 +95,7 @@ export default function Ukolnicek(poradi) {
             <Typography variant="body1">Počet splněných úkolů: {splneno()}</Typography>
             <Typography variant="body1">Počet nesplněných úkolů: {seznamUkolu.filter(ukol => !ukol.splneno).length}</Typography>
 
-            <Button variant="contained" style={{backgroundColor : barvaTlacitka}} onClick={() => pridejUkol("novy ukol")}>Přidej náhodný úkol</Button>
+            <Button variant="contained" style={{ backgroundColor: barvaTlacitka }} onClick={() => pridejUkol("novy ukol")}>Přidej náhodný úkol</Button>
         </>
     )
 }
