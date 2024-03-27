@@ -7,7 +7,7 @@ import Ukolnicek from "./mui/Ukolnicek";
 import Kalkulacka from "./nacteni_vstupu/Kalkulacka";
 import LocalStorage from './local_storage/LocalStorage';
 import Eshop from './eshop/Eshop';
-import OblibenaBarva from './oblibena_barva/Oblibena-barva';
+import OblibenaBarva from './oblibena_barva/OblibenaBarva';
 
 function App() {
   return (

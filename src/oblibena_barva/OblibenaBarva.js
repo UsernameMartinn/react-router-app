@@ -9,7 +9,7 @@ function OblibenaBarva() {
       <div>Jaká je vaše oblíbená barva?</div>
       <input type='color' id='barva' onChange={(e) => nastavBarvu(e.target.value)}></input>
       <button id='ok' onClick={() => console.log(barva)}>Ok</button> <br />
-      <Ctverec OblibenaBarva={barva}/>
+      <Ctverec barva={barva}/>
     </>
   );
   //e je event
