@@ -35,7 +35,7 @@ function Kalkulacka(props) {
 
     return (
         <>
-            <Typography style={{color: 'black' /*barva*/}} variant='h2'>Kalkulačka</Typography>
+            <Typography style={{color: props.barva}} variant='h2'>Kalkulačka</Typography>
             <div id="kalkulacka">
                 <div id="displej">{cislo}</div>
 

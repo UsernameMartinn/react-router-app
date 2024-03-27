@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { Typography } from "@mui/material";
 
-function LocalStorage() {
+function LocalStorage(props) {
 
   //const [pocet, nastavPocet] = useState(0) //[název proměné, funkce měnící proměnou] = useState(původní hodnota)
   const [pocet, nastavPocet] = useState(parseInt(localStorage.getItem("pocet") || 0));
@@ -31,7 +31,7 @@ function LocalStorage() {
 
   return (
     <>
-      <Typography variant='h2'>Local storage</Typography>
+      <Typography style={{color: props.barva}} variant='h2'>Local storage</Typography>
       <div style={{ fontSize: 40, margin: 40 }} >
         <button style={{ backgroundColor: "lightgreen", color: "green", fontSize: 40, width: 50, margin: 30 }} onClick={() => nastavPocet(pocet + 1)}>+</button>
         {pocet}

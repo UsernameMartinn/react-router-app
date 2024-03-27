@@ -7,7 +7,7 @@ import { Typography } from "@mui/material";
 import Divider from '@mui/material/Divider';
 import Chip from '@mui/material/Chip';
 
-function Api() {
+function Api(props) {
 
   const [kavy, nastavKavy] = useState([]);
   const [vybranaKava, nastavVybranouKavu] = useState("");
@@ -24,7 +24,7 @@ function Api() {
 
   return (
     <>
-      <Typography variant='h2'>Kávička</Typography>
+      <Typography style={{color: props.barva}} variant='h2'>Kávička</Typography>
       <Paper>
         <Typography variant="subtitle1">
           {vybranaKava != "" && <span>Vybraná káva je: {vybranaKava}</span>}
