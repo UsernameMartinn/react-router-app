@@ -7,7 +7,7 @@ function Ctverec(props) {
 
     return (
         <>
-            <div id="ctverec" style={{backgroundColor: 'black', width: 100, height: 100, display: 'flex'}} />
+            <div id="ctverec" style={{backgroundColor: oblibenaBarva, width: 100, height: 100, display: 'flex'}} />
         </>
     )
 }

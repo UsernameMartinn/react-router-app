@@ -15,12 +15,12 @@ function App() {
     <Navigation />
     <Routes>
         <Route index element={<Home />} />
-        <Route path="local_storage" element={<LocalStorage />} />
-        <Route path="nacteni_vstupu" element={<Kalkulacka />} />
-        <Route path="api" element={<Api />} />
-        <Route path="mui" element={<Ukolnicek />} />
-        <Route path="eshop" element={<Eshop />} />
-        <Route path="oblibena_barva" element={<OblibenaBarva />} />
+        <Route path="/local_storage" element={<LocalStorage />} />
+        <Route path="/nacteni_vstupu" element={<Kalkulacka />} />
+        <Route path="/api" element={<Api />} />
+        <Route path="/mui" element={<Ukolnicek />} />
+        <Route path="/eshop" element={<Eshop />} />
+        <Route path="/oblibena_barva" element={<OblibenaBarva />} />
         <Route path="*" element={<NoPage />} />
     </Routes>
     </HashRouter>
